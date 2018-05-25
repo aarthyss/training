@@ -1,2 +1,3 @@
 var message = prompt("Enter your name here");
-alert("Welcome "+message);
+var content = document.getElementsByClassName("content")[0];
+content.textContent = "Welcome "+message;
